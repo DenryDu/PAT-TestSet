@@ -2,7 +2,6 @@
 using namespace std;
 bool ways[1001][1001]={false};
 int numCity, numWays, numCheck;
-int counter=0;
 void dfs(int index, bool* vis){
    vis[index]=true; 
    for(int i=1;i<=numCity;i++){
@@ -10,7 +9,6 @@ void dfs(int index, bool* vis){
          dfs(i,vis);
    }
 }
-
 void check(int c){
    int count=-1;
    bool visited[1001]={false};
