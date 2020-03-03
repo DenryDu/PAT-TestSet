@@ -5,7 +5,7 @@ void OutTime(int offTime){
    if(offTime==Max)
       cout<<"Sorry";
    else{
-        int h =8+offTime/60;
+        int h=8+offTime/60;
         int s=offTime%60;
         printf("%02d:%02d", h, s);
    }
@@ -20,20 +20,13 @@ int main(){
    vector<int> counter(numWin+1);
    fill(counter.begin(),counter.end()+1,0);
    for(int i=1;i<=numWin*numLine;i++){
-      if(i<=numWin){
-         allWindows[i].push(time[i]);
-         counter[i]+=time[i];
+      allWindows[(i-1)%numWin+1].push(time[i]);
+      if(counter[(i-1)%numWin+1]>=540){
+         time[i]=Max;   
          continue;
       }
-      else{
-         allWindows[(i-1)%numWin+1].push(time[i]);
-        if(counter[(i-1)%numWin+1]>=540){
-           time[i]=Max;   
-           continue;
-        }
-         time[i]+=counter[(i-1)%numWin+1];
-         counter[(i-1)%numWin+1]=time[i];
-      }
+      time[i]+=counter[(i-1)%numWin+1];
+      counter[(i-1)%numWin+1]=time[i];
    }
    for(int i=numWin*numLine+1;i<=numCus;i++){
       int flag, min;
@@ -48,10 +41,8 @@ int main(){
          continue;
       }
       allWindows[flag].push(time[i]);
-      for(int j=0;j<flag;j++)
-         allWindows[j].front()-=allWindows[flag].front();
-      for(int j=flag+1;j<=numWin;j++)
-         allWindows[j].front()-=allWindows[flag].front();
+      for(int j=0;j<flag;j++)         allWindows[j].front()-=allWindows[flag].front();
+      for(int j=flag+1;j<=numWin;j++)         allWindows[j].front()-=allWindows[flag].front();
       allWindows[flag].pop();
       time[i]+=counter[flag];
       counter[flag]=time[i];
