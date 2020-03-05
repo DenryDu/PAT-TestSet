@@ -1,0 +1,176 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+DFS	1004_Counting_Leaves/1004_Counting_Leaves.cpp	/^void DFS(Tree &tree, int index, int* levelCount, int levelFlag){$/;"	f
+DFS	1004_Counting_Leaves/1004_counting_leaves.cpp	/^void DFS(Tree &tree, node &node, int* levelCount, int levelFlag){$/;"	f
+DFSTree	1004_Counting_Leaves/1004_Counting_Leaves.cpp	/^void DFSTree(Tree &tree, int* levelCount, int &levelFlag){$/;"	f
+DFSTree	1004_Counting_Leaves/1004_counting_leaves.cpp	/^void DFSTree(Tree &tree, int* levelCount, int &levelFlag){$/;"	f
+DTo	1010_Radix/Untitled2.cpp	/^string DTo(long long int num, long long int radix){$/;"	f
+DTo_ReverseToD	1015_Reversible_Primes/1015_Reversible_Primes.cpp	/^int DTo_ReverseToD(int num, int radix){\/\/\/\/\/\/\/\/进制转换+逆置+进制转换 $/;"	f
+InOrOut	1003_Emergency/1003_emergency.cpp	/^int InOrOut[501];\/\/0 is in, 1 represents has been picked out$/;"	v
+Inf	1003_Emergency/1003_emergency.cpp	4;"	d	file:
+InfSet	1003_Emergency/1003_emergency.cpp	3;"	d	file:
+InitNode	1004_Counting_Leaves/1004_counting_leaves.cpp	/^void InitNode(node &n, int childNum){$/;"	f
+InitTimeInfo	1006_SignIn_and_SignOut/1006_SignIn_and_SignOut.cpp	/^void InitTimeInfo(timeInfo &tI, string a, char* b, char* c){$/;"	f
+InitTree	1004_Counting_Leaves/1004_Counting_Leaves.cpp	/^void InitTree(Tree &t){$/;"	f
+InitTree	1004_Counting_Leaves/1004_counting_leaves.cpp	/^void InitTree(Tree &t){$/;"	f
+IsPrime	1015_Reversible_Primes/1015_Reversible_Primes.cpp	/^bool IsPrime(int num){\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/质数判断 $/;"	f
+M	1012_The_Best_Rank/1012_The_Best_Rank.cpp	2;"	d	file:
+MAP	1010_Radix/1010_Radix.cpp	/^long  long MAP(long  long i){$/;"	f
+MAP	1010_Radix/Untitled2.cpp	/^int MAP(int i){$/;"	f
+Max	1004_Counting_Leaves/1004_Counting_Leaves.cpp	/^int Max = 0;$/;"	v
+Max	1004_Counting_Leaves/1004_counting_leaves.cpp	/^int Max = 0;$/;"	v
+Max	1014_Waiting_in_Line/1014_Waiting_in_Line.cpp	3;"	d	file:
+OutTime	1014_Waiting_in_Line/1014_Waiting_in_Line.cpp	/^void OutTime(int offTime){\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/输出结束时间 $/;"	f
+Rank	1012_The_Best_Rank/1012_The_Best_Rank.cpp	/^void Rank(stuInfo si){$/;"	f
+Seq	1007_Maximum_Subsequence_Sum/1007_Maximum_Subsequence_Sum.cpp	/^vector<int> Seq;$/;"	v
+Time	1016_Phone_Bills/1016_Phone_Bills.cpp	/^    Time(const Time &t): month(t.month), day(t.day), hour(t.hour), min(t.min){}$/;"	f	struct:Time
+Time	1016_Phone_Bills/1016_Phone_Bills.cpp	/^    Time(int m, int d, int h, int mm): month(m), day(d),hour(h),min(mm){}$/;"	f	struct:Time
+Time	1016_Phone_Bills/1016_Phone_Bills.cpp	/^typedef struct Time{$/;"	s	file:
+Time	1016_Phone_Bills/1016_Phone_Bills.cpp	/^}Time;$/;"	t	typeref:struct:Time	file:
+Time	1017_Queueing_at_the_Bank/1017_Queueing_at_the_Bank.cpp	/^    Time(): hour(), min(), sec(){}$/;"	f	struct:Time
+Time	1017_Queueing_at_the_Bank/1017_Queueing_at_the_Bank.cpp	/^    Time(int h, int m, int s): hour(h), min(m), sec(s){}$/;"	f	struct:Time
+Time	1017_Queueing_at_the_Bank/1017_Queueing_at_the_Bank.cpp	/^typedef struct Time{$/;"	s	file:
+Time	1017_Queueing_at_the_Bank/1017_Queueing_at_the_Bank.cpp	/^}Time;$/;"	t	typeref:struct:Time	file:
+ToD	1010_Radix/1010_Radix.cpp	/^long  long ToD(string s,long  long radix){$/;"	f
+ToD	1010_Radix/Untitled2.cpp	/^long  long ToD(string s,int radix){$/;"	f
+Tree	1004_Counting_Leaves/1004_Counting_Leaves.cpp	/^typedef struct Tree{$/;"	s	file:
+Tree	1004_Counting_Leaves/1004_Counting_Leaves.cpp	/^}Tree;$/;"	t	typeref:struct:Tree	file:
+Tree	1004_Counting_Leaves/1004_counting_leaves.cpp	/^typedef struct Tree{$/;"	s	file:
+Tree	1004_Counting_Leaves/1004_counting_leaves.cpp	/^}Tree;$/;"	t	typeref:struct:Tree	file:
+add_t	1017_Queueing_at_the_Bank/1017_Queueing_at_the_Bank.cpp	/^void add_t(Time &rst, const record &rc){$/;"	f
+bill	1016_Phone_Bills/1016_Phone_Bills.cpp	/^    bill(string na, Time t1, Time t2): name(na), t_1(t1), t_2(t2){$/;"	f	struct:bill
+bill	1016_Phone_Bills/1016_Phone_Bills.cpp	/^typedef struct bill{$/;"	s	file:
+bill	1016_Phone_Bills/1016_Phone_Bills.cpp	/^}bill;$/;"	t	typeref:struct:bill	file:
+billMap	1016_Phone_Bills/1016_Phone_Bills.cpp	/^map<string, vector<bill> > billMap;$/;"	v
+check	1013_Battle_Over_Cities/1013_Battle_Over_Cities.cpp	/^void check(int c){$/;"	f
+childNode	1004_Counting_Leaves/1004_Counting_Leaves.cpp	/^	vector<int> childNode[110];$/;"	m	struct:Tree	file:
+childNode	1004_Counting_Leaves/1004_counting_leaves.cpp	/^	int* childNode;$/;"	m	struct:node	file:
+childNum	1004_Counting_Leaves/1004_counting_leaves.cpp	/^	int childNum;$/;"	m	struct:node	file:
+cmp	1017_Queueing_at_the_Bank/1017_Queueing_at_the_Bank.cpp	/^bool cmp(const record &a, const record &b){$/;"	f
+cmpA	1012_The_Best_Rank/1012_The_Best_Rank.cpp	/^bool cmpA(stuInfo a, stuInfo b){	return (a.score[0]>b.score[0]);}$/;"	f
+cmpC	1012_The_Best_Rank/1012_The_Best_Rank.cpp	/^bool cmpC(stuInfo a, stuInfo b){	return (a.score[1]>b.score[1]);}$/;"	f
+cmpE	1012_The_Best_Rank/1012_The_Best_Rank.cpp	/^bool cmpE(stuInfo a, stuInfo b){	return (a.score[3]>b.score[3]);}$/;"	f
+cmpInTime	1006_SignIn_and_SignOut/1006_SignIn_and_SignOut.cpp	/^bool cmpInTime(timeInfo a, timeInfo b){$/;"	f
+cmpM	1012_The_Best_Rank/1012_The_Best_Rank.cpp	/^bool cmpM(stuInfo a, stuInfo b){	return (a.score[2]>b.score[2]);}$/;"	f
+cmpOutTime	1006_SignIn_and_SignOut/1006_SignIn_and_SignOut.cpp	/^bool cmpOutTime(timeInfo a, timeInfo b){$/;"	f
+cmpRec	1016_Phone_Bills/1016_Phone_Bills.cpp	/^bool cmpRec(const record &a, const record &b){$/;"	f
+cof	1002_A+B_polynomial/a+b_ploymials_01.cpp	/^	double cof;$/;"	m	class:singleUnit	file:
+cost	1016_Phone_Bills/1016_Phone_Bills.cpp	/^    double cost;$/;"	m	struct:bill	file:
+cusNum	1017_Queueing_at_the_Bank/1017_Queueing_at_the_Bank.cpp	/^int winNum, cusNum;$/;"	v
+day	1016_Phone_Bills/1016_Phone_Bills.cpp	/^    int day;$/;"	m	struct:Time	file:
+dfs	1013_Battle_Over_Cities/1013_Battle_Over_Cities.cpp	/^void dfs(int index, bool* vis){$/;"	f
+dist	1003_Emergency/1003_emergency.cpp	/^int dist[501];\/\/store the distance info (distance from src to i(dist[i])$/;"	v
+exp	1002_A+B_polynomial/a+b_ploymials_01.cpp	/^	int exp;$/;"	m	class:singleUnit	file:
+getK	1002_A+B_polynomial/a+b_ploymials_01.cpp	/^	int getK() {$/;"	f	class:poly
+getUnitList	1002_A+B_polynomial/a+b_ploymials_01.cpp	/^	singleUnit* getUnitList() {$/;"	f	class:poly
+graph	1003_Emergency/1003_emergency.cpp	/^int graph[501][501];$/;"	v
+highestExp	1002_A+B_polynomial/a+b_ploymials_01.cpp	/^	int highestExp;$/;"	m	class:poly	file:
+hour	1016_Phone_Bills/1016_Phone_Bills.cpp	/^    int hour;$/;"	m	struct:Time	file:
+hour	1017_Queueing_at_the_Bank/1017_Queueing_at_the_Bank.cpp	/^    int hour;$/;"	m	struct:Time	file:
+id	1006_SignIn_and_SignOut/1006_SignIn_and_SignOut.cpp	/^	string id;$/;"	m	struct:timeInfo	file:
+id	1012_The_Best_Rank/1012_The_Best_Rank.cpp	/^	string id;$/;"	m	struct:__anon1	file:
+ifIdMatch	1012_The_Best_Rank/1012_The_Best_Rank.cpp	/^	ifIdMatch(string id):m_id(id){}$/;"	f	struct:ifIdMatch
+ifIdMatch	1012_The_Best_Rank/1012_The_Best_Rank.cpp	/^typedef struct ifIdMatch{$/;"	s	file:
+ifIdMatch	1012_The_Best_Rank/1012_The_Best_Rank.cpp	/^}ifIdMatch;$/;"	t	typeref:struct:ifIdMatch	file:
+inTime	1006_SignIn_and_SignOut/1006_SignIn_and_SignOut.cpp	/^	char* inTime=(char*)malloc(8*sizeof(char));$/;"	m	struct:timeInfo	file:
+index	1004_Counting_Leaves/1004_counting_leaves.cpp	/^	int index;$/;"	m	struct:node	file:
+info	1012_The_Best_Rank/1012_The_Best_Rank.cpp	/^vector<stuInfo> info;$/;"	v
+k	1002_A+B_polynomial/a+b_ploymials_01.cpp	/^	int k;$/;"	m	class:poly	file:
+len	1007_Maximum_Subsequence_Sum/1007_Maximum_Subsequence_Sum.cpp	/^int len=0;$/;"	v
+len	1016_Phone_Bills/1016_Phone_Bills.cpp	/^    int len;$/;"	m	struct:bill	file:
+levelCount	1004_Counting_Leaves/1004_Counting_Leaves.cpp	/^int levelCount[110];\/\/used to store the result of each level$/;"	v
+levelCount	1004_Counting_Leaves/1004_counting_leaves.cpp	/^int levelCount[105];\/\/used to store the result of each level$/;"	v
+levelFlag	1004_Counting_Leaves/1004_Counting_Leaves.cpp	/^int levelFlag=0;\/\/用来传递层级值，不过是传值，不是传引用，否则会导致逻辑错误 $/;"	v
+levelFlag	1004_Counting_Leaves/1004_counting_leaves.cpp	/^int levelFlag=0;\/\/用来传递层级值，不过是传值，不是传引用，否则会导致逻辑错误 $/;"	v
+m_id	1012_The_Best_Rank/1012_The_Best_Rank.cpp	/^	string m_id;$/;"	m	struct:ifIdMatch	file:
+main	1001_A+B_format/1001_A+B_format.cpp	/^int main(){$/;"	f
+main	1002_A+B_polynomial/1002_A+B_polynomial.cpp	/^int main() {$/;"	f
+main	1002_A+B_polynomial/a+b_ploymials_01.cpp	/^int main() { $/;"	f
+main	1003_Emergency/1003_emergency.cpp	/^int main() {$/;"	f
+main	1004_Counting_Leaves/1004_Counting_Leaves.cpp	/^int main(){$/;"	f
+main	1004_Counting_Leaves/1004_counting_leaves.cpp	/^int main(){$/;"	f
+main	1005_Spell_it_right/1005_Spell_it_right.cpp	/^int main(){$/;"	f
+main	1006_SignIn_and_SignOut/1006_SignIn_and_SignOut.cpp	/^int main(){$/;"	f
+main	1007_Maximum_Subsequence_Sum/1007_Maximum_Subsequence_Sum.cpp	/^int main(){$/;"	f
+main	1008_Elevator/1008_Elevator.cpp	/^int main(){$/;"	f
+main	1009_Product_of_Polynomials/1009_Product_of_Polynomials.cpp	/^int main(){$/;"	f
+main	1010_Radix/1010_Radix.cpp	/^int main(){  $/;"	f
+main	1010_Radix/Untitled2.cpp	/^int main(){  $/;"	f
+main	1011_World_Cup_Betting/1011_World_Cup_Betting.cpp	/^int main(){$/;"	f
+main	1012_The_Best_Rank/1012_The_Best_Rank.cpp	/^int main(){$/;"	f
+main	1013_Battle_Over_Cities/1013_Battle_Over_Cities.cpp	/^int main(){$/;"	f
+main	1014_Waiting_in_Line/1014_Waiting_in_Line.cpp	/^int main(){$/;"	f
+main	1015_Reversible_Primes/1015_Reversible_Primes.cpp	/^int main(){$/;"	f
+main	1016_Phone_Bills/1016_Phone_Bills.cpp	/^int main(){$/;"	f
+main	1017_Queueing_at_the_Bank/1017_Queueing_at_the_Bank.cpp	/^int main(){$/;"	f
+min	1016_Phone_Bills/1016_Phone_Bills.cpp	/^    int min;$/;"	m	struct:Time	file:
+min	1017_Queueing_at_the_Bank/1017_Queueing_at_the_Bank.cpp	/^    int min;$/;"	m	struct:Time	file:
+month	1016_Phone_Bills/1016_Phone_Bills.cpp	/^    int month; $/;"	m	struct:Time	file:
+name	1016_Phone_Bills/1016_Phone_Bills.cpp	/^    string name;$/;"	m	struct:bill	file:
+name	1016_Phone_Bills/1016_Phone_Bills.cpp	/^    string name;$/;"	m	struct:record	file:
+node	1004_Counting_Leaves/1004_counting_leaves.cpp	/^typedef struct node{$/;"	s	file:
+node	1004_Counting_Leaves/1004_counting_leaves.cpp	/^}node;$/;"	t	typeref:struct:node	file:
+nodeList	1004_Counting_Leaves/1004_counting_leaves.cpp	/^	node* nodeList; $/;"	m	struct:Tree	file:
+nodeNum	1004_Counting_Leaves/1004_Counting_Leaves.cpp	/^	int nodeNum;$/;"	m	struct:Tree	file:
+nodeNum	1004_Counting_Leaves/1004_counting_leaves.cpp	/^	int nodeNum;$/;"	m	struct:Tree	file:
+nonLeaf	1004_Counting_Leaves/1004_Counting_Leaves.cpp	/^	int nonLeaf;$/;"	m	struct:Tree	file:
+nonLeaf	1004_Counting_Leaves/1004_counting_leaves.cpp	/^	int nonLeaf;$/;"	m	struct:Tree	file:
+numCheck	1013_Battle_Over_Cities/1013_Battle_Over_Cities.cpp	/^int numCity, numWays, numCheck;$/;"	v
+numCity	1013_Battle_Over_Cities/1013_Battle_Over_Cities.cpp	/^int numCity, numWays, numCheck;$/;"	v
+numCus	1014_Waiting_in_Line/1014_Waiting_in_Line.cpp	/^int numWin, numLine, numCus, numQCus;\/\/\/\/\/\/\/\/\/\/\/\/\/\/分别表示：窗口数，线内长度，顾客数量，要求查询的顾客数量 $/;"	v
+numLine	1014_Waiting_in_Line/1014_Waiting_in_Line.cpp	/^int numWin, numLine, numCus, numQCus;\/\/\/\/\/\/\/\/\/\/\/\/\/\/分别表示：窗口数，线内长度，顾客数量，要求查询的顾客数量 $/;"	v
+numPath	1003_Emergency/1003_emergency.cpp	/^int numPath[501];\/\/to transmit the num of path to dst$/;"	v
+numQCus	1014_Waiting_in_Line/1014_Waiting_in_Line.cpp	/^int numWin, numLine, numCus, numQCus;\/\/\/\/\/\/\/\/\/\/\/\/\/\/分别表示：窗口数，线内长度，顾客数量，要求查询的顾客数量 $/;"	v
+numRescue	1003_Emergency/1003_emergency.cpp	/^int numRescue[501];\/\/to calculate the num of rescue team can gather around i(numRescue[i])$/;"	v
+numWays	1013_Battle_Over_Cities/1013_Battle_Over_Cities.cpp	/^int numCity, numWays, numCheck;$/;"	v
+numWin	1014_Waiting_in_Line/1014_Waiting_in_Line.cpp	/^int numWin, numLine, numCus, numQCus;\/\/\/\/\/\/\/\/\/\/\/\/\/\/分别表示：窗口数，线内长度，顾客数量，要求查询的顾客数量 $/;"	v
+online	1016_Phone_Bills/1016_Phone_Bills.cpp	/^    bool online;$/;"	m	struct:record	file:
+operator ()	1012_The_Best_Rank/1012_The_Best_Rank.cpp	/^	bool operator()(const stuInfo& si){$/;"	f	struct:ifIdMatch
+operator +	1002_A+B_polynomial/a+b_ploymials_01.cpp	/^	friend poly operator+(poly a, poly b) {$/;"	f	class:poly
+operator <	1017_Queueing_at_the_Bank/1017_Queueing_at_the_Bank.cpp	/^    bool operator <(const Time &t){$/;"	f	struct:Time
+operator <<	1002_A+B_polynomial/a+b_ploymials_01.cpp	/^	friend ostream& operator<<(ostream& out, poly& p)    \/\/overload the output stream$/;"	f	class:poly
+operator =	1017_Queueing_at_the_Bank/1017_Queueing_at_the_Bank.cpp	/^    Time& operator =(const Time &t){$/;"	f	struct:Time
+outTime	1006_SignIn_and_SignOut/1006_SignIn_and_SignOut.cpp	/^	char* outTime=(char*)malloc(8*sizeof(char));$/;"	m	struct:timeInfo	file:
+poly	1002_A+B_polynomial/a+b_ploymials_01.cpp	/^	poly() {$/;"	f	class:poly
+poly	1002_A+B_polynomial/a+b_ploymials_01.cpp	/^	poly(int k) {$/;"	f	class:poly
+poly	1002_A+B_polynomial/a+b_ploymials_01.cpp	/^class poly {$/;"	c	file:
+pro_t	1017_Queueing_at_the_Bank/1017_Queueing_at_the_Bank.cpp	/^    int pro_t;$/;"	m	struct:record	file:
+que	1017_Queueing_at_the_Bank/1017_Queueing_at_the_Bank.cpp	/^vector< record > que;$/;"	v
+rank	1012_The_Best_Rank/1012_The_Best_Rank.cpp	/^	int rank[4]={-1};$/;"	m	struct:__anon1	file:
+record	1016_Phone_Bills/1016_Phone_Bills.cpp	/^    record(string na, int m, int d, int h, int mm, bool tag): name(na), t(m,d,h,mm), online(tag){}$/;"	f	struct:record
+record	1016_Phone_Bills/1016_Phone_Bills.cpp	/^typedef struct record{$/;"	s	file:
+record	1016_Phone_Bills/1016_Phone_Bills.cpp	/^}record;$/;"	t	typeref:struct:record	file:
+record	1017_Queueing_at_the_Bank/1017_Queueing_at_the_Bank.cpp	/^typedef struct record{$/;"	s	file:
+record	1017_Queueing_at_the_Bank/1017_Queueing_at_the_Bank.cpp	/^}record;$/;"	t	typeref:struct:record	file:
+recordList	1016_Phone_Bills/1016_Phone_Bills.cpp	/^vector<record> recordList;$/;"	v
+recordNum	1016_Phone_Bills/1016_Phone_Bills.cpp	/^int recordNum;$/;"	v
+score	1012_The_Best_Rank/1012_The_Best_Rank.cpp	/^	int score[4];$/;"	m	struct:__anon1	file:
+sec	1017_Queueing_at_the_Bank/1017_Queueing_at_the_Bank.cpp	/^    int sec;$/;"	m	struct:Time	file:
+setHighestExp	1002_A+B_polynomial/a+b_ploymials_01.cpp	/^	void setHighestExp(int highestExp) {$/;"	f	class:poly
+setK	1002_A+B_polynomial/a+b_ploymials_01.cpp	/^	void setK(int k) {$/;"	f	class:poly
+setUnitList	1002_A+B_polynomial/a+b_ploymials_01.cpp	/^	void setUnitList(singleUnit* unitList) {$/;"	f	class:poly
+singleUnit	1002_A+B_polynomial/a+b_ploymials_01.cpp	/^class singleUnit {$/;"	c	file:
+stuInfo	1012_The_Best_Rank/1012_The_Best_Rank.cpp	/^}stuInfo;$/;"	t	typeref:struct:__anon1	file:
+subtrac	1017_Queueing_at_the_Bank/1017_Queueing_at_the_Bank.cpp	/^double subtrac(const Time &t1, const Time &t2){$/;"	f
+swap_t	1017_Queueing_at_the_Bank/1017_Queueing_at_the_Bank.cpp	/^void swap_t(Time &rst, const record &rc){$/;"	f
+t	1016_Phone_Bills/1016_Phone_Bills.cpp	/^    Time t;$/;"	m	struct:record	file:
+t	1017_Queueing_at_the_Bank/1017_Queueing_at_the_Bank.cpp	/^    Time t;$/;"	m	struct:record	file:
+t_1	1016_Phone_Bills/1016_Phone_Bills.cpp	/^    Time t_1;$/;"	m	struct:bill	file:
+t_2	1016_Phone_Bills/1016_Phone_Bills.cpp	/^    Time t_2;$/;"	m	struct:bill	file:
+time	1014_Waiting_in_Line/1014_Waiting_in_Line.cpp	/^int time[1001]={0};\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/先用来存放个人用时，计算后用来存放结束时间 $/;"	v
+timeInfo	1006_SignIn_and_SignOut/1006_SignIn_and_SignOut.cpp	/^typedef struct timeInfo{$/;"	s	file:
+timeInfo	1006_SignIn_and_SignOut/1006_SignIn_and_SignOut.cpp	/^}timeInfo;$/;"	t	typeref:struct:timeInfo	file:
+toll	1016_Phone_Bills/1016_Phone_Bills.cpp	/^int toll[24];$/;"	v
+total	1017_Queueing_at_the_Bank/1017_Queueing_at_the_Bank.cpp	/^double total=0.0;$/;"	v
+unitList	1002_A+B_polynomial/a+b_ploymials_01.cpp	/^	singleUnit* unitList;$/;"	m	class:poly	file:
+upperBound	1010_Radix/1010_Radix.cpp	/^long long upperBound(string s, string s2, long long radix){$/;"	f
+verysmall	1007_Maximum_Subsequence_Sum/1007_Maximum_Subsequence_Sum.cpp	3;"	d	file:
+visited	1004_Counting_Leaves/1004_Counting_Leaves.cpp	/^	int visited[110]={0};$/;"	m	struct:Tree	file:
+visited	1004_Counting_Leaves/1004_counting_leaves.cpp	/^	int visited[100]={0};$/;"	m	struct:Tree	file:
+weight	1003_Emergency/1003_emergency.cpp	/^int weight[501];$/;"	v
+win	1017_Queueing_at_the_Bank/1017_Queueing_at_the_Bank.cpp	/^vector< Time > win;$/;"	v
+winNum	1017_Queueing_at_the_Bank/1017_Queueing_at_the_Bank.cpp	/^int winNum, cusNum;$/;"	v
